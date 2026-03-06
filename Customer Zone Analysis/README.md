@@ -15,6 +15,10 @@ The goal is to enable operations teams to reduce delivery time and optimize rout
 
 • Optimize route length and reduce operational delays
 
+
+<img width="1323" height="790" alt="Screenshot 2026-03-05 215220" src="https://github.com/user-attachments/assets/d292df3c-07b7-40cf-ad04-84af0a168b86" />
+
+
 ## 📊 Key KPIs
 
 • Average Delivery Time (min) → 44.74
