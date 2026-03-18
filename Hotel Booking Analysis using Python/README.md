@@ -4,7 +4,7 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Cleaning-lightblue)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualisation-teal)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Status](https://img.shields.io/badge/Status-Tableau-brightwhite)
+![Tableau](https://img.shields.io/badge/Status-Dashboard-brightwhite)
 
 ## Overview
 End-to-end EDA on 6,000 hotel bookings (2022–2024), uncovering cancellation
