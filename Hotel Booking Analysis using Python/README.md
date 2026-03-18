@@ -2,9 +2,12 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Cleaning-lightblue)
+![Tableau](https://img.shields.io/badge/Tableau-Dashboard-brightwhite)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Visualisation-teal)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-![Tableau](https://img.shields.io/badge/Status-Dashboard-brightwhite)
+
+<img width="1838" height="730" alt="Dashboard 1" src="https://github.com/user-attachments/assets/72785bfd-5f80-4c12-9f99-7f59b852caa9" />
+
 
 ## Overview
 End-to-end EDA on 6,000 hotel bookings (2022–2024), uncovering cancellation
