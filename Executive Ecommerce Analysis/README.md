@@ -157,4 +157,4 @@ This dashboard provides an easy-to-use reporting solution for exploring sales pe
 
 
 
-⭐ If you found this project helpful, consider giving it a star.
+Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiNjBkZTM3ZGMtZTQ3YS00ODI0LWI0M2YtMjZhODFmY2MyODg1IiwidCI6ImFmZmM4YTIyLWY1ZDMtNDA4Zi05NThlLWFiOTY0ODI3YmU5OSJ9
