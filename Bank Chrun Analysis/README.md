@@ -42,7 +42,6 @@ Custom Tooltip on the Credit Card Status chart that displays customer distributi
 • Data Visualization
 
 ## Key Insights
-### Some insights observed from the dashboard include:
 • Inactive customers have a higher likelihood of churning than active customers.
 • Churn varies across different age groups and tenure levels.
 • Customer geography shows noticeable differences in churn distribution.
