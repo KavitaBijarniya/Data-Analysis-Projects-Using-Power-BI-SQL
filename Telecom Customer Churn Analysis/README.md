@@ -1,126 +1,208 @@
-# 📡 Telecom Customer Churn Analysis Dashboard
-## 📌 Project Overview
-This project analyzes customer churn behavior across a telecom company to identify the key factors driving customer attrition. The dashboard provides insights into churn rates by tenure, contract type, internet service, payment method, online security, and tech support usage.
+# Customer Churn & Retention Analytics Dashboard
 
-The goal is to enable customer retention teams and business strategists to proactively identify at-risk customers and implement targeted interventions to reduce churn.
+## Project Overview
 
-## 🎯 Business Objective
+Customer retention is one of the biggest challenges for subscription-based businesses. Losing existing customers reduces recurring revenue, increases customer acquisition costs, and lowers Customer Lifetime Value (CLTV).
 
-• Identify the overall churn rate and its financial impact on total charges
+This project analyzes customer churn using Power BI to identify:
 
-• Analyze how contract type influences customer retention and churn probability
+- How serious customer churn is
+- Which customers are leaving
+- Why customers are leaving
+- Which customer segments have the highest churn
+- Revenue lost because of churn
+- Areas where retention strategies should focus
 
-• Evaluate the role of internet service type in churn behavior
+The dashboard helps business stakeholders monitor churn trends, understand customer behavior, and make data-driven retention decisions.
 
-• Understand how tenure affects the likelihood of a customer churning
+---
 
-• Assess whether value-added services like online security and tech support reduce churn
+# Business Problem
+
+The telecom company is experiencing customer churn, resulting in declining recurring revenue and reduced customer lifetime value.
+
+Management wants answers to questions such as:
+
+- How serious is customer churn?
+- Which customer groups have the highest churn?
+- What are the main reasons customers leave?
+- Which products or services contribute to churn?
+- How much revenue is lost due to churn?
+- Which customers should be prioritized for retention campaigns?
+
+---
+
+# Project Objectives
+
+- Measure overall customer churn performance.
+- Monitor key customer retention KPIs.
+- Identify high-risk customer segments.
+- Analyze churn drivers and customer behavior.
+- Estimate business impact through revenue loss.
+- Support retention strategy with actionable insights.
+
+---
+
+# Dataset Information
+
+The dataset contains customer demographic, service usage, revenue, and churn information.
+
+### Key Data Includes
+
+- Customer Information
+- Customer Status
+- Contract Type
+- Internet Service
+- Payment Method
+- Customer Tenure
+- Customer Satisfaction
+- Customer Lifetime Value (CLTV)
+- Churn Score
+- Churn Category
+- Churn Reason
+- Revenue Metrics
+- Geographic Information
+
+---
+
+# Tools & Technologies
+
+- Power BI Desktop
+- Power Query
+- DAX
+- Data Modeling
+- Excel
+
+---
+
+# 📈 Dashboard Pages
+
+## 1️. Executive Overview
+
+Provides a high-level summary of business performance.
+
+### KPIs
+
+- Total Customers
+- Churned Customers
+- Churn Rate
+- Total Revenue
+- Revenue Lost
+- Average CLTV
+- Average Monthly Charges
+
+### Analysis
+
+- Customer Status
+- Churn Rate by Contract
+- Churn Rate by Internet Type
+- Churn Rate by Tenure
+- Churn by Payment Method
+- Geographic Churn Distribution
+
+---
+
+## 2️. Churn Drivers & Retention Analysis
+
+Focuses on identifying why customers leave.
+
+### KPIs
+
+- Average Satisfaction Score
+- Top Churn Category
+- Competitor Churn %
+- Month-to-Month Churn %
+
+### Analysis
+
+- Revenue by Customer Status
+- Churn Category Distribution
+- Churn Reasons
+- Satisfaction vs Churn
+- Churn by Age Group
+- Service Adoption vs Churn (Interactive Matrix)
+
+---
+
+# Key Business Insights
+
+### Executive Insights
+
+- Customer churn rate is **28.37%**, indicating a significant retention challenge.
+- Churned customers contributed to approximately **$3.68M** in lost revenue.
+- Month-to-Month contracts experience the highest churn compared to long-term contracts.
+- Fiber Optic customers show a higher churn rate than other internet service types.
+- Customers with shorter tenure are more likely to leave.
+
+### Root Cause Insights
+
+- Competitor offers are the leading cause of customer churn.
+- Low customer satisfaction strongly correlates with churn.
+- Customers without Online Security and Premium Tech Support show higher churn rates.
+- High-value customers (high CLTV) were also lost, increasing long-term business impact.
+
+---
+
+# Business Recommendations
+
+- Encourage customers to move from Month-to-Month to longer-term contracts.
+- Launch targeted retention campaigns for high CLTV customers.
+- Improve customer satisfaction through proactive support.
+- Offer loyalty discounts to customers identified as high churn risk.
+- Promote value-added services such as Online Security and Premium Tech Support.
+- Monitor competitor-driven churn and introduce competitive pricing strategies.
+
+---
+
+# Power BI Features Used
+
+- Data Modeling
+- DAX Measures
+- Power Query
+- Drill-through
+- Interactive Slicers
+- Matrix Visualization
+- KPI Cards
+- Conditional Formatting
+- Cross-filtering
+- Dynamic Visual Interactions
+
+---
+
+# Dashboard Preview
+
+## Executive Overview
+
+<img width="1315" height="711" alt="Screenshot 2026-07-18 214326" src="https://github.com/user-attachments/assets/45afeecb-9969-4702-93ad-b3d91ac97d43" />
 
 
-<img width="1334" height="789" alt="Screenshot 2026-03-06 111336" src="https://github.com/user-attachments/assets/3f3b9192-41f4-427b-b55a-71735a4980f9" />
+---
+
+## Churn Drivers & Retention Analysis
+
+<img width="1467" height="795" alt="image" src="https://github.com/user-attachments/assets/a1a1c15d-a25b-479f-844a-6f426fe8da0d" />
 
 
-## 📊 Key KPIs
+---
 
-• Total Customers → 20K
+# Skills Demonstrated
 
-• Churned Customers → 7K
+- Data Cleaning
+- Data Modeling
+- DAX
+- Power Query
+- KPI Design
+- Customer Segmentation
+- Churn Analysis
+- Revenue Analysis
+- Business Intelligence
+- Dashboard Design
+- Data Visualization
+- Analytical Thinking
+- Business Storytelling
 
-• Churn Rate → 34.22%
+---
 
-• Avg Tenure — Churned Customers → 34 months
+# Outcome
 
-• Avg Tenure — Retained Customers → 38 months
-
-• Avg Monthly Charges — Churned → 80
-
-• Avg Monthly Charges — Retained → 65
-
-• Total Charges — Retained Customers → 32,289.19K
-
-• Total Charges — Churned Customers → 18,590.39K
-
-## 📈 Dashboard Insights
-### 1️⃣ Overall Churn Overview
-
-• 34.22% of the total 20K customers have churned — a critically high attrition rate for any telecom business
-
-• Churned customers generated 18,590.39K in total charges vs 32,289.19K for retained customers
-
-• Churned customers pay significantly higher monthly charges (80) compared to retained customers (65) — suggesting price sensitivity is a key churn driver
-
-### 2️⃣ Churn Rate by Tenure
-
-• Churn rate is highest in the very early months — exceeding 60% for customers with near-zero tenure
-
-• The churn rate drops sharply and stabilizes between 20% and 30% after the first 20 months
-
-• This indicates the first few months are the most critical window for customer retention interventions
-
-• Customers who survive past 20 months show significantly stronger loyalty
-
-### 3️⃣ Churn by Contract Type
-
-• Month-to-month contracts have by far the highest churn rate at 43.18%
-
-• One Year and Two Year contracts both show dramatically lower churn rates at 20.92% and 20.93% respectively
-
-• This is a clear signal — longer contract commitments cut churn by more than half compared to flexible monthly plans
-
-### 4️⃣ Churn by Internet Service Type
-
-• Fiber internet customers have both the highest customer volume and the highest churn count
-
-• DSL customers show a similar pattern but at a lower scale
-
-• Customers with no internet service show the lowest churn — likely representing more basic, stable plan users
-
-• Fiber customers churning at high rates despite paying premium prices suggests dissatisfaction with service quality or value
-
-### 5️⃣ Online Security & Churn
-
-• Customers without online security churn at a significantly higher rate than those with it
-
-• The gap between churned (Yes) and retained (No) is clearly wider among customers lacking online security
-
-• Bundling online security into standard plans could serve as both a value-add and a retention tool
-
-### 6️⃣ Tech Support & Churn
-
-• Customers who do not have tech support show much higher churn volumes compared to those who do
-
-• Customers with tech support enabled are considerably more likely to be retained
-
-• This strongly suggests that service support accessibility directly improves customer stickiness
-
-### 7️⃣ Churn by Payment Method
-
-• Churn rate is nearly identical across all payment methods — UPI (34.52%), Credit (34.18%), Debit (34.11%), Cash (34.05%)
-
-• Payment method has virtually no influence on churn behavior
-
-• This rules out payment friction as a churn driver and redirects focus to service quality and pricing
-
-## 💡 Business Recommendations
-
-• Launch an aggressive early-tenure onboarding program — with over 60% churn in the first months, the first 90 days must include proactive check-ins, tutorials, and loyalty incentives
-
-• Incentivize month-to-month customers to upgrade to annual contracts — even a modest discount on one-year plans could cut churn from 43% down to ~21%
-
-• Investigate Fiber service quality issues — Fiber customers are churning at the highest rate despite paying premium prices, indicating a service quality or value perception problem
-
-• Bundle online security and tech support into base plans — both features show a strong correlation with higher retention and can be positioned as free upgrades during the critical early tenure window
-
-• Target high monthly charge customers proactively — churned customers pay an average of 80/month vs 65 for retained ones, making them a high-value and high-risk segment worth dedicated retention campaigns
-
-• Since payment method has no impact on churn, retention budgets should be redirected entirely toward contract upgrades, service quality improvements, and value-added features
-
-## 🛠 Tools Used
-
-• Power BI (Dashboard Development & Data Visualization)
-
-• Power Query (Data Cleaning & Transformation)
-
-• DAX — Data Analysis Expressions (Churn Rate Calculations, KPI Cards & Comparative Metrics)
-
-• Excel / CSV (Source Data Preparation)
+This dashboard enables business stakeholders to monitor customer churn, identify retention opportunities, understand churn drivers, and make data-driven decisions to reduce customer attrition and improve long-term revenue.
