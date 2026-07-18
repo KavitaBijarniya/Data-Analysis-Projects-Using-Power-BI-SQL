@@ -120,6 +120,9 @@ This page analyzes revenue, profitability, products, customers, and locations.
 
 ---
 
+<img width="1417" height="803" alt="Screenshot 2026-07-18 160505" src="https://github.com/user-attachments/assets/dfb1dd36-1ec5-4332-8863-66b7c3479915" />
+
+
 # Key Business Insights
 
 ## Supplier Performance
@@ -129,6 +132,10 @@ This page analyzes revenue, profitability, products, customers, and locations.
 - Defect rates differed across suppliers, indicating the need for targeted quality improvement initiatives.
 - Procurement costs varied across locations, suggesting opportunities for supplier and location cost optimization.
 
+
+<img width="1427" height="768" alt="Screenshot 2026-07-18 160535" src="https://github.com/user-attachments/assets/4214cb08-0687-4b00-8aec-91735349302a" />
+
+
 ### Manufacturing Performance
 
 - Production volumes were generally aligned with target volumes, while some SKUs showed noticeable gaps requiring operational attention.
@@ -136,12 +143,20 @@ This page analyzes revenue, profitability, products, customers, and locations.
 - Higher defect rates were associated with certain suppliers, emphasizing the importance of supplier quality management.
 - Manufacturing costs differed across product categories, supporting cost optimization decisions.
 
+
+<img width="1427" height="791" alt="Screenshot 2026-07-18 163653" src="https://github.com/user-attachments/assets/de4171a3-19f5-4326-974a-89911cb7d395" />
+
+
 ### Inventory & Logistics
 
 - Shipping costs varied across carriers, providing opportunities to optimize logistics expenses.
 - Transportation modes contributed differently to production movement, enabling comparisons of operational efficiency.
 - The inventory dashboard highlighted both optimal and critical stock levels, helping identify products requiring replenishment.
 - OTIF performance revealed opportunities to improve delivery reliability and customer service.
+
+
+<img width="1420" height="796" alt="Screenshot 2026-07-18 163907" src="https://github.com/user-attachments/assets/ab3ca866-b1a0-4980-a12a-19f0d8d42d10" />
+
 
 ### Sales & Customer Insights
 
