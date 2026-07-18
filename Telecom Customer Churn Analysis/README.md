@@ -206,3 +206,5 @@ Focuses on identifying why customers leave.
 # Outcome
 
 This dashboard enables business stakeholders to monitor customer churn, identify retention opportunities, understand churn drivers, and make data-driven decisions to reduce customer attrition and improve long-term revenue.
+
+Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiYzdjMjI2NDgtYzUwMS00YjMwLThlNTgtZTk3MDI1MmZkNGZhIiwidCI6ImFmZmM4YTIyLWY1ZDMtNDA4Zi05NThlLWFiOTY0ODI3YmU5OSJ9
