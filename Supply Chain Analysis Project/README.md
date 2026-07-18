@@ -1,5 +1,5 @@
 # 📦 Supply Chain Analytics Dashboard
-## 📖 Project Overview
+## Project Overview
 
 This project presents an end-to-end Supply Chain Analytics Dashboard built using Power BI, SQL, DAX, and Power Query. 
 The dashboard provides a comprehensive view of supply chain operations, enabling business users to monitor supplier performance, 
@@ -13,7 +13,7 @@ Inventory & Logistics
 Sales & Customer Insights
 
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Supply chain teams often work with data spread across multiple systems, making it difficult to monitor operational performance and identify issues quickly. Without centralized reporting, stakeholders struggle to answer key business questions such as:
 
@@ -34,7 +34,7 @@ Power Query
 Data Modeling (Star Schema)
 
 
-## 📂 Dashboard Structure
+## Dashboard Structure
 ###b  1. Supplier Performance
 
 This page evaluates supplier performance using procurement and operational metrics.
@@ -105,7 +105,7 @@ Products Sold by Customer Demographics
 Sales by Location & Customer Demographics
 Revenue & Profit by Product Category
 
-## 📊 Key Business Insights
+## Key Business Insights
 ### Supplier Performance
 Supplier 1 handled the highest order volume and generated the highest revenue contribution.
 Supplier lead times varied significantly, highlighting opportunities to improve procurement efficiency.
@@ -130,7 +130,7 @@ Top-selling SKUs accounted for a significant share of product sales.
 Product categories contributed differently to revenue and profit, supporting product portfolio evaluation.
 Customer demographic analysis provided visibility into purchasing patterns across different customer groups.
 
-## 💡 Business Value
+## Business Value
 
 This dashboard enables business users to:
 
@@ -141,7 +141,7 @@ Analyze logistics costs and transportation performance.
 Track regional sales and customer purchasing behavior.
 Support data-driven operational and strategic decision-making.
 
-## 🚀 Skills Demonstrated
+## Skills Demonstrated
 Data Cleaning with Power Query
 SQL Data Extraction
 Star Schema Data Modeling
@@ -151,8 +151,9 @@ Interactive Dashboard Development
 Business Intelligence Reporting
 Data Visualization
 
-
-Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiZGJlODE0NGItYzAzYS00Y2I4LWI4MTUtMWRlMjYzYTI0ZWJhIiwidCI6ImFmZmM4YTIyLWY1ZDMtNDA4Zi05NThlLWFiOTY0ODI3YmU5OSJ9
-📌 Conclusion
+## Conclusion
 
 This project demonstrates how Power BI can transform raw supply chain data into actionable business insights. By integrating supplier, manufacturing, inventory, logistics, and sales data into a single analytical solution, the dashboard enables stakeholders to monitor key performance indicators, identify operational inefficiencies, and support informed business decisions.
+
+Dashboard Link: https://app.powerbi.com/view?r=eyJrIjoiZGJlODE0NGItYzAzYS00Y2I4LWI4MTUtMWRlMjYzYTI0ZWJhIiwidCI6ImFmZmM4YTIyLWY1ZDMtNDA4Zi05NThlLWFiOTY0ODI3YmU5OSJ9
+
